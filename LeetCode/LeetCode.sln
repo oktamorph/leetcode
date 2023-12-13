@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FindTargetIndicesAfterSorti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidPerfectSquare", "BinarySearch\ValidPerfectSquare\ValidPerfectSquare.csproj", "{C99791EF-B9F5-4579-8180-C771AFE44655}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HowManyNumbersAreSmallerThanTheCurrentNumber", "BinarySearch\HowManyNumbersAreSmallerThanTheCurrentNumber\HowManyNumbersAreSmallerThanTheCurrentNumber.csproj", "{CFB2C9F1-E040-4C29-8E57-AB6A71D46623}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C99791EF-B9F5-4579-8180-C771AFE44655}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C99791EF-B9F5-4579-8180-C771AFE44655}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C99791EF-B9F5-4579-8180-C771AFE44655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFB2C9F1-E040-4C29-8E57-AB6A71D46623}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFB2C9F1-E040-4C29-8E57-AB6A71D46623}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFB2C9F1-E040-4C29-8E57-AB6A71D46623}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFB2C9F1-E040-4C29-8E57-AB6A71D46623}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
