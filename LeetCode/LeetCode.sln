@@ -13,7 +13,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ValidPerfectSquare", "Binar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HowManyNumbersAreSmallerThanTheCurrentNumber", "BinarySearch\HowManyNumbersAreSmallerThanTheCurrentNumber\HowManyNumbersAreSmallerThanTheCurrentNumber.csproj", "{CFB2C9F1-E040-4C29-8E57-AB6A71D46623}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciNumber", "FibonacciNumber\FibonacciNumber.csproj", "{B8F0B092-D03A-4BE6-B68A-E356B0C26CAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciNumber", "FibonacciNumber\FibonacciNumber.csproj", "{B8F0B092-D03A-4BE6-B68A-E356B0C26CAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerOfTwo", "PowerOfTwo\PowerOfTwo.csproj", "{40820536-277C-40EA-9085-1ECF1A6653AD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{B8F0B092-D03A-4BE6-B68A-E356B0C26CAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8F0B092-D03A-4BE6-B68A-E356B0C26CAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8F0B092-D03A-4BE6-B68A-E356B0C26CAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40820536-277C-40EA-9085-1ECF1A6653AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40820536-277C-40EA-9085-1ECF1A6653AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40820536-277C-40EA-9085-1ECF1A6653AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40820536-277C-40EA-9085-1ECF1A6653AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
