@@ -4,33 +4,21 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var nums = new int[] { 1, 2, 3, 1, 1, 3 };
+            var result = NumIdenticalPairs(nums);
         }
 
-        public int NumIdenticalPairs(int[] nums)
+        public static int NumIdenticalPairs(int[] nums)
         {
-            if (nums.Length < 1 || nums.Length > 100) return 0;
-
-            int i = 0;
-            int j = nums.Length - 1;
             int count = 0;
+            Dictionary<int, int> dictionary = new Dictionary<int, int>();
 
-            while (j > 0)
+            foreach (var x in nums)
             {
-                if (nums[i] < 1 || nums[i] > 100)
-                    break;
-
-                if (i == j)
-                {
-                    i = 0;
-                    j--;
-                    continue;
-                }
-
-                if (nums[i] == nums[j] && i < j)
-                    count++;
-
-                i++;
+                if (dictionary.ContainsKey(x))
+                    count += dictionary[x]++;
+                else
+                    dictionary[x] = 1;
             }
 
             return count;
