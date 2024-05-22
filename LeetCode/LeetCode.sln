@@ -15,7 +15,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HowManyNumbersAreSmallerTha
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FibonacciNumber", "FibonacciNumber\FibonacciNumber.csproj", "{B8F0B092-D03A-4BE6-B68A-E356B0C26CAA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PowerOfTwo", "PowerOfTwo\PowerOfTwo.csproj", "{40820536-277C-40EA-9085-1ECF1A6653AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PowerOfTwo", "PowerOfTwo\PowerOfTwo.csproj", "{40820536-277C-40EA-9085-1ECF1A6653AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumberOfGoodPairs", "NumberOfGoodPairs\NumberOfGoodPairs.csproj", "{6CFF7027-DB94-45B1-B1D8-1794D6032566}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{40820536-277C-40EA-9085-1ECF1A6653AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40820536-277C-40EA-9085-1ECF1A6653AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40820536-277C-40EA-9085-1ECF1A6653AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CFF7027-DB94-45B1-B1D8-1794D6032566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CFF7027-DB94-45B1-B1D8-1794D6032566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CFF7027-DB94-45B1-B1D8-1794D6032566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CFF7027-DB94-45B1-B1D8-1794D6032566}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
